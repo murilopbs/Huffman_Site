@@ -1,0 +1,30 @@
+# Diretório de compilação do CMake
+build/
+
+# Arquivos gerados pela compilação
+*.o
+*.a
+*.so
+*.dylib
+
+# O executável final
+portao_back
+portao_back_test
+
+# Arquivo de compile commands para o LSP
+compile_commands.json
+
+# Arquivos de configuração com segredos
+config.json
+
+# Arquivos de cache e de sistema operacional
+*.swp
+*~
+.DS_Store
+
+# Configurações locais de IDEs
+.vscode/
+.idea/
+
+#tirar cache do clang
+.cache/
